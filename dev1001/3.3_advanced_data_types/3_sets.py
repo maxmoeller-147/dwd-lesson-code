@@ -7,3 +7,13 @@ candidate_skills = {"python", "java", "communication"}
 # TODO 2: Find out which skills the candidate has that are also required.
 # TODO 3: Find out all unique skills possessed by either (required or candidate).
 # TODO 4: Which skills are required but the candidate doesn't have?
+
+
+required_skills.add('communication')
+print(required_skills)
+
+print(required_skills & candidate_skills)
+
+print(required_skills | candidate_skills)
+
+print(required_skills - candidate_skills)

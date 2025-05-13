@@ -6,9 +6,11 @@ has_honors = False
 
 print(f"Score: {score}")
 
-if score >= 90 and is_passing: # Using 'and'
+if score >= 93 and is_passing: # Using 'and'
     letter_grade = "A"
     has_honors = True
+elif score >= 87 and is_passing and 93:
+    letter_grade = "B+"
 elif score >= 80 and is_passing:
     letter_grade = "B"
 elif score >= 70 and is_passing:
@@ -25,3 +27,5 @@ if has_honors:
     print("Congratulations on achieving honors!")
 if not is_passing and letter_grade == "F": # Example of 'or' could be: if score < 0 or score > 100: print("Invalid score")
     print("Student needs to retake the course.")
+if letter_grade == "A" or "B+":
+    print ("Elegible for scholarship consideration")

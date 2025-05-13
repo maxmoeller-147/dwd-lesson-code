@@ -9,3 +9,17 @@ cart = ["apples", "bananas", "bread"]
 # TODO 4: You bought 2 "apples". How many "apples" are in the cart now? (Assume it's still 1 for this example, but how would you check?)
 # TODO 5: Sort the cart alphabetically.
 # Print the final cart.
+
+
+cart.append("milk")
+cart.remove("bananas")
+cart.insert(1,'eggs')
+cart.extend(['apples','apples'])
+print(f'number of apples:{cart.count('apples')}')
+
+cart.sort()
+print(cart[:2])
+print(cart[1:])
+
+print(cart)
+print(f'total items: {len(cart)}')
