@@ -1,7 +1,16 @@
-# Shopping Cart
-cart = ["apples", "bananas", "bread"]
+# Lists
+#
+# Like tuples, lists are also ordered sequences, but the key difference is
+# they are **Mutable** - you *can* change them after creation.
+# Syntax: Uses square brackets: []
+# Use cases: Storing collections where items might be added, removed, or changed
+#               (e.g., a list of tasks, scores, user names).
 
-# Solve the TODOs by writing code, NOT by changing the data structure by hand!
+# Creating lists
+shopping_list = ["apples", "bananas", "milk"]
+scores = [88, 92, 75, 100]
+mixed_list = [1, "hello", True, 3.14]
+empty_list = []
 
 # TODO 1: Add "milk" to the end of the cart.
 # TODO 2: "bananas" are out of stock. Remove them.
