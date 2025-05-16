@@ -40,3 +40,19 @@ print("Today's Tasks:")
 for index, task in enumerate(tasks_today):
     print(f"{index + 1}. {task}") # User-friendly 1-based indexing
 print("-" * 30 + "\n")
+
+
+#  while` Loop Temperature Check:**
+#       *   Imagine a sensor reading. Start with `current_temp = 18`.
+current_temp = 18
+
+#      *   Write a `while` loop that keeps printing "Temperature ({current_temp}°C) is cool, increasing..." and increments `current_temp` by 1, as long as `current_temp` is less than 22.
+while current_temp < 22
+print(f"temperature {current_temp} is cool, increasing...")
+current_temp += 1
+
+
+#     *   Once it reaches 22 or more, print "Temperature ({current_temp}°C) is optimal."
+while current_temp .= 22
+    for i in range(current_temp):print("-" * 20)
+    
