@@ -16,8 +16,8 @@ import math
 # Task 2: Calculate circumference
 radius = 7
 # Your code here
-# circumference = ...
-# print(f"The circumference of a circle with radius {radius} is: {circumference:.2f}")
+ circumference = 2 * math.pi * radius
+ print(f"The circumference of a circle with radius {radius} is: {circumference:.2f}")
 
 # Task 3: Use math.ceil()
 number_to_ceil = 4.3
@@ -28,8 +28,8 @@ number_to_ceil = 4.3
 # Task 4: Use math.floor()
 number_to_floor = 4.8
 # Your code here
-# floored_number = ...
-# print(f"Floor of {number_to_floor} is: {floored_number}")
+floored_number = math.floor(number_to_floor)
+print(f"Floor of {number_to_floor} is: {floored_number}")
 
 # Task 5: Calculate 10 to the power of 4
 base = 10

@@ -20,12 +20,12 @@ Tasks:
 """
 
 # Task 3: Import pyjokes
-# import pyjokes
+import pyjokes
 
 # Task 4a: Get and print a neutral joke
-# neutral_joke = ...
-# print("Neutral Joke:")
-# print(neutral_joke)
+neutral_joke = pyjokes.get_joke (language='en',category='neutral')
+print("Neutral Joke:")
+print(neutral_joke)
 
 # Task 4b: Get and print a Chuck Norris joke
 # chuck_joke = ...
