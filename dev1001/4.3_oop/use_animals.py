@@ -14,6 +14,9 @@
 5. Create instances of LoudDog and test the methods.
 '''
 
+class LoudDog(Animal):
+    def __init__(self, name, bark_volume):
+
 class Animal:
     def __init__(self, name):
         print(f"Animal '{name}' created.")
